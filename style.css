@@ -1,0 +1,26 @@
+/** Variables generales**/
+
+:root {
+    --color-p: #0d1072;
+    --color-s: #ffffff;
+    --border: .2rem;
+}
+
+.html * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+    color: var(--color-p)
+}
+
+.p1 {
+    font-size:1.1rem;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
