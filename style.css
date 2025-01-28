@@ -1,10 +1,15 @@
 /** Variables generales**/
 
 :root {
+    --main-c:#fd72d;
+    --border-r:.2rem;
     --color-p: #0d1072;
     --color-s: #ffffff;
     --border: .2rem;
 }
+
+/** Estilos generales**/
+
 
 .html * {
     margin: 0;
@@ -16,8 +21,17 @@
     color: var(--color-p)
 }
 
-.p1 {
+.p {
     font-size:1.1rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
 }
 
 .logo {
@@ -29,3 +43,5 @@ img{
     width: 300px;
     height:300px
 }
+
+
