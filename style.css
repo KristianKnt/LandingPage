@@ -34,9 +34,45 @@ ul, li {
     list-style: none;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
+.wrap-cta{
+    padding: 1.5rem 0;
+}
+
+.cta-a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--main-c);
+    padding: .5rem 1rem;
+    border-radius: var(--border-r);
+}
+
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2.2rem;
+}
+
+
+/** Header **/
+
+.header-landing{
+    display: flex;
+    justify-content: center;
+    background: #f2f2f2;
+    padding: 0.25rem;
+
+}
+
+
+.logo-header{
+    max-width: 35px;
+    height: 100%;
+    width: 100%;
 }
 
 img{
@@ -44,4 +80,97 @@ img{
     height:300px
 }
 
+/**   Hero section **/
 
+.hero-section{
+    height: 90vh;
+    background:url(img/oficina.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106,141,163,0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-hero-section{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%;
+}
+
+/**  Logo Brand Section   **/
+
+.section{
+    margin: 5rem 0;
+
+}
+
+.section h2{
+    padding: 2rem 0;
+}
+
+.wrap-logos-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand{
+    width: 200px;
+    padding: 1rem 2rem;
+    filter: grayscale(1);
+}
+
+/**  wrap title **/
+
+.wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+}
+
+/** Servicios Section  **/
+
+.wrap-servicios-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.item-servicios-section{
+    padding: 1rem;
+}
+
+.item-servicios-section img{
+    width: 300px;
+    height: 225px;
+}
+
+/** two colums section **/
+
+.wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.wrap-text-column h3{
+    padding: 2rem 0;
+}
+
+.wrap-text-column p{
+    padding-bottom: 1rem;
+}
