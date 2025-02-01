@@ -17,6 +17,277 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+  @media (max-width:600px){
+
+
+.contendor-principal{
+    padding:10px;
+}
+
+.hero-section {
+    color: var(--color-p)
+}
+
+.p {
+    font-size:1.1rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.wrap-cta{
+    padding: 1.5rem 0;
+}
+
+.cta-a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--main-c);
+    padding: .5rem 1rem;
+    border-radius: var(--border-r);
+}
+
+h1{
+    font-size: 34px;
+    text-align: center;
+    
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+ 
+}
+h3{
+    font-size: 25px;
+
+    text-align: center;
+}
+
+
+/** Header **/
+
+.header-landing{
+    display: flex;
+    justify-content: center;
+    background: #f2f2f2;
+    padding: 0.25rem;
+
+}
+
+
+.logo-header{
+    max-width: 35px;
+    height: 100%;
+    width: 100%;
+}
+
+
+img{
+    width: 100px;
+    height:100px
+}
+
+
+/**   Hero section **/
+
+.hero-section{
+    margin-top: 10px;
+    height: 90vh;
+    background:url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106,141,163,0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    
+}
+
+.wrap-hero-section{
+    margin-top:30px;
+    max-width: 600px;
+    color: #f9f9f9 ;
+    padding: 10%;
+   
+}
+
+
+/**  Logo Brand Section   **/
+
+.section{
+    margin: 1 rem 0;
+
+}
+
+.logos-section h2{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.wrap-logos-section{
+    display: flex;
+    /**flex-flow: row wrap;**/
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand{
+    width: 200px;
+    padding: 1rem 2rem;
+    filter: grayscale(1);
+}
+
+/**  wrap title **/
+
+.wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
+
+
+/** Servicios Section  **/
+
+.wrap-servicios-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.item-servicios-section{
+    padding: 1rem;
+}
+
+.item-servicios-section img{
+    width: 300px;
+    height: 225px;
+}
+
+/** two colums section **/
+
+
+.wrap-img_two-column img{
+    padding: 2rem;
+    display: grid;
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+    
+}
+
+
+.wrap-text-column h3{
+    
+    text-align: center;
+}
+
+.wrap-text-column p{
+    padding-bottom: 1rem;
+    margin: 15px;
+    text-align: justify;
+}
+
+.logosection{
+    width:500px;
+    height: 300px;
+}
+
+
+/** Formulario seccion**/
+
+.wrap-title-section h2{
+    margin: 2px;
+}
+
+
+
+section.two-column-section.form{
+    margin: 15px;
+    background-color: #f5f7f8;
+    padding: 1rem 0;
+}
+
+.form input, .form textarea{
+    display:flex;
+    width: 98%;
+    line-height: 1.75rem;
+    border:1.5px solid #cbcbcb;
+    border-radius:var(--border-r);
+    margin-top:3px;
+}
+
+.form textarea{
+    min-height:200px;
+}
+
+input[type="submit"]{
+    border: 0;
+    display: inline;
+    cursor: pointer;
+    background: darkblue;
+    
+  }
+
+  /** Footer **/
+
+  .footer-section{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+ 
+ .menu-footer-section{
+    padding: 1rem 0;
+  }
+
+  .wrap-social-logos ul, .wrap-menu-footer-section ul{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+  }
+
+  .social-logo{
+    max-width: 50px;
+    height:50px;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .wrap-menu-footer-section ul li{
+    font-size: 1.1rem;
+    padding: 1.5rem;
+  }
+
+  .footer-creds{
+    display:flex;
+    justify-content:center;
+  }
+    
+    .wrap-hero-section p {
+        font-weight: bold;
+        text-align: justify;
+        font-size: 15px;
+    }
+  }
+
+  @media(min-width: 601px){
+    
+
+
+.contendor-principal{
+    padding:10px;
+}
+
 .hero-section {
     color: var(--color-p)
 }
@@ -85,6 +356,7 @@ img{
 /**   Hero section **/
 
 .hero-section{
+    
     height: 90vh;
     background:url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
     background-position: center;
@@ -94,18 +366,25 @@ img{
     background-blend-mode: multiply;
     display: flex;
     align-items: center;
+    
 }
 
 .wrap-hero-section{
     max-width: 600px;
-    color: #fff;
+    color: #f9f9f9 ;
     padding: 15%;
+   
+}
+.wrap-hero-section p {
+    font-weight: bold;
+    text-align: justify;
+    font-size: 18px;
 }
 
 /**  Logo Brand Section   **/
 
 .section{
-    margin: 5rem 0;
+    margin: 1 rem 0;
 
 }
 
@@ -131,7 +410,7 @@ img{
 .wrap-title-section{
     display: flex;
     justify-content: center;
-    margin: 3rem 1rem;
+    margin: 1rem 1rem;
 }
 
 /** Servicios Section  **/
@@ -172,7 +451,7 @@ img{
 }
 
 .wrap-text-column h3{
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .wrap-text-column p{
@@ -243,4 +522,5 @@ input[type="submit"]{
   .footer-creds{
     display:flex;
     justify-content:center;
+  }
   }
