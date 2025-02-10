@@ -134,10 +134,15 @@
 
    
 
-    section.two-column-section.form {
-        margin: 15px;
-        background-color: #f2f2f2;
-        padding: 3rem 0;
+    .section-two-column-section-form {
+        margin-bottom:90px;
+        background-color: #f3f4f7;
+    }
+
+    .wrap-title-section-form{
+        text-align: center;
+        font-size: 20px;
+        padding:1rem;
     }
 
     .form input,
@@ -148,6 +153,7 @@
         border: 1.5px solid #cbcbcb;
         border-radius: var(--border-r);
         margin-top: 3px;
+        border-radius:15px
     
     }
 
@@ -159,8 +165,9 @@
         border: 0;
         display: inline;
         cursor: pointer;
-        background: darkblue;
-
+        background: #20438d;
+        height: 50px;
+        width: 100px;
     }
 
     /** Footer **/
@@ -170,13 +177,17 @@
         margin: 0 auto;
     }
 
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:black;
+    }
   
-
+/** footer**/
     .wrap-social-logos ul,
     .wrap-menu-footer-section ul {
         display: flex;
         justify-content: center;
-        color: black;
+        list-style: none;
 
     }
 
@@ -190,11 +201,12 @@
     .wrap-menu-footer-section ul li {
         font-size: 1.1rem;
         padding: 1.5rem;
+        
     }
 
-    .footer-creds {
-        display: flex;
-        justify-content: center;
+    .footer-creds p{
+      text-align: center;
+      font-size: 13px;
     }
 
     /** Header **/
@@ -225,7 +237,7 @@
 
     .logos-section{
         text-align: center;
-        font-size: 19px;
+        font-size: 20px;
         margin-top: 100px;
         margin-bottom:150px
     }
@@ -242,13 +254,18 @@
 
     /**  Caracteristicas nuestros servicios **/
 
-    .wrap-tittle-section {
+    .wrap-title-section {
         text-align: center;
         font-size: 20px;
-        font-weight: bold;
         margin-top: 100px;
         margin-bottom: 40px;
       
+    }
+
+    .wrap-title-section p{
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px;
     }
 
     /** Servicios Section  **/
@@ -261,7 +278,7 @@
 
     }
     .wrap-servicios-section img{
-        border-radius:40px;
+        border-radius:40px; 
     }
 
   /** Secccion imagenes categorias serviciso**/
@@ -282,23 +299,47 @@
     /** two colums section **/
 
     .wrap-two-column {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        max-width: 1200px;
-        margin: 0 auto;
-    }x
+        display: flex;
+    }
 
-    .wrap-text-column h3 {
+    .wrap-text-column {
+        
         text-align: center;
-        padding: 1rem 0;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+
+    .wrap-text-column h3{
+        
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+    .wrap-text-column h2 {
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
 
     .menu-footer-section {
-        padding: 1rem 0;
+        padding: 1rem;
+        margin-right: 50px;
+        margin-left: 20px;
     }
-}
 
+    .menu-footer-section-copy{
+        text-align: center;
+        padding: 2rem;
+        font-size: 13px;
+    
+    }
+    
+}
 
 
 
@@ -306,4 +347,329 @@
 @media(min-width: 601px) {
     
 
+    /** Padding contenedor principal**/
+    .contendor-principal {
+        padding: 10px;
+    }
+
+   
+     /** Secion principal**/
+
+     .wrap-hero-section {
+        max-width: 600px;
+        color: #f9f9f9;
+        padding: 15%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: justify;
+
+    }
+
+    .wrap-hero-section h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    /** Seccion hero  **/
+
+    .wrap-cta {
+        padding: 1.5rem 0;
+    }
+
+    .cta-a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: var(--main-c);
+        padding: .5rem 1rem;
+        border-radius: var(--border-r);
+    }
+
+        /**   Hero section **/
+    .hero-section {
+        margin-top: 10px;
+        height: 90vh;
+        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(106, 141, 163, 0.7);
+        background-blend-mode: multiply;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+
+
+    /** Logo principal**/
+    .logo-header {
+        max-width: 35px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /**Logos tecnologias**/
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /** two colums section 
+    
+.wrap-img_two-column img {
+        padding: 2rem;
+        height: 250px;
+        width: 270px;
+        margin: 10px;
+    }
+   
+
+
+    **/
+
+    /** Seccion mas caracteristicas**/
+    
+    .wrap-text-column p {
+        padding-bottom: 1rem;
+        margin: 15px;
+        text-align: justify;
+    }
+   
+    /** imagen seccion Caracteristicas de nuestros servicios **/
+    .logosection {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+       
+    
+    }
+
+    .logosection img{
+        width: 300px;
+        height: 240px;
+        padding: 0.5px;
+        margin-bottom: 2px;
+        border-radius: 20px;
+    }
+
+
+    /** Formulario seccion
+    **/
+
+   
+
+    .section-two-column-section-form {
+        margin-bottom:90px;
+        background-color: #f3f4f7;
+        width: 600px;
+    }
+
+    .wrap-title-section-form{
+        text-align: center;
+        font-size: 20px;
+        padding:1rem;
+    }
+
+    .form input,
+    .form textarea {
+        display: flex;
+        width: 98%;
+        line-height: 1.75rem;
+        border: 1.5px solid #cbcbcb;
+        border-radius: var(--border-r);
+        margin-top: 3px;
+        border-radius:15px
+    
+    }
+
+    .form textarea {
+        min-height: 200px;
+    }
+
+    input[type="submit"] {
+        border: 0;
+        display: inline;
+        cursor: pointer;
+        background: #20438d;
+        height: 50px;
+        width: 100px;
+    }
+
+    /** Footer **/
+
+    .footer-section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:black;
+    }
+  
+/** footer**/
+    .wrap-social-logos ul,
+    .wrap-menu-footer-section ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+    }
+
+    .social-logo {
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .wrap-menu-footer-section ul li {
+        font-size: 1.1rem;
+        padding: 1.5rem;
+        
+    }
+
+    .footer-creds p{
+      text-align: center;
+      font-size: 13px;
+    }
+
+    /** Header **/
+
+    .header-landing {
+        display: flex;
+        justify-content: center;
+        background: #f2f2f2;
+        padding: 0.25rem;
+
+    }
+
+   
+
+    /**  Logo Brand Section   **/
+
+    .section {
+        margin: 1 rem 0;
+
+    }
+
+    .wrap-logos-section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos-section{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:150px
+    }
+
+    .logos-section h2{
+        margin-bottom: 60px;
+    }
+
+    .logo-brand {
+        width: 200px;
+        padding: 1rem 2rem;
+        filter: grayscale(1);
+    }
+
+    /**  Caracteristicas nuestros servicios **/
+
+    .wrap-title-section {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+      
+    }
+
+    .wrap-title-section p{
+        font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+   
+    margin-left: 40px;
+    }
+
+    /** Servicios Section  **/
+
+    .wrap-servicios-section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-bottom:30px;
+
+    }
+    .wrap-servicios-section img{
+        border-radius:40px; 
+    }
+
+  /** Secccion imagenes categorias serviciso**/
+    .item-servicios-section {
+        padding: 1rem;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+        font-weight: bold;
+        font-size:18px;
+    }
+
+    .item-servicios-section img {
+        width: 300px;
+        height: 225px;
+    }
+
+    /** two colums section **/
+
+    .wrap-two-column {
+        display: flex;
+    }
+
+    .wrap-text-column {
+        
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+
+    .wrap-text-column h3{
+        
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+    .wrap-text-column h2 {
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .menu-footer-section {
+        padding: 1rem;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+
+    .menu-footer-section-copy{
+        text-align: center;
+        padding: 2rem;
+        font-size: 13px;
+    
+    }
 }
+
+
+
