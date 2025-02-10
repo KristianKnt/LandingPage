@@ -524,3 +524,36 @@ input[type="submit"]{
     justify-content:center;
   }
   }
+
+
+  /* formulario   de prueba no funciona aun*/
+  .section.two-column-section.form {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; /* Evita que sea demasiado grande */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Para que el padding no aumente el tamaño */
+  }
+
+  
+  .wrap-title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .wrap-two-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  
