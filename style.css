@@ -1,8 +1,8 @@
 /** Variables generales**/
 
 :root {
-    --main-c:#fd72d;
-    --border-r:.2rem;
+    --main-c: #fd72d;
+    --border-r: .2rem;
     --color-p: #0d1072;
     --color-s: #ffffff;
     --border: .2rem;
@@ -17,543 +17,659 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-  @media (max-width:600px){
+/** Estilos para resolucion de inferior a 600 px**/
 
+@media (max-width:600px) {
 
-.contendor-principal{
-    padding:10px;
-}
+    /** Padding contenedor principal**/
+    .contendor-principal {
+        padding: 10px;
+    }
 
-.hero-section {
-    color: var(--color-p)
-}
-
-.p {
-    font-size:1.1rem;
-}
-
-
-a{
-    text-decoration: none;
-}
-
-ul, li {
-    list-style: none;
-}
-
-.wrap-cta{
-    padding: 1.5rem 0;
-}
-
-.cta-a{
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.2rem;
-    background-color: var(--main-c);
-    padding: .5rem 1rem;
-    border-radius: var(--border-r);
-}
-
-h1{
-    font-size: 34px;
-    text-align: center;
-    
-}
-h2{
-    font-size: 30px;
-    text-align: center;
- 
-}
-h3{
-    font-size: 25px;
-
-    text-align: center;
-}
-
-
-/** Header **/
-
-.header-landing{
-    display: flex;
-    justify-content: center;
-    background: #f2f2f2;
-    padding: 0.25rem;
-
-}
-
-
-.logo-header{
-    max-width: 35px;
-    height: 100%;
-    width: 100%;
-}
-
-
-img{
-    width: 100px;
-    height:100px
-}
-
-
-/**   Hero section **/
-
-.hero-section{
-    margin-top: 10px;
-    height: 90vh;
-    background:url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(106,141,163,0.7);
-    background-blend-mode: multiply;
-    display: flex;
-    align-items: center;
-    
-}
-
-.wrap-hero-section{
-    margin-top:30px;
-    max-width: 600px;
-    color: #f9f9f9 ;
-    padding: 10%;
    
-}
+     /** Secion principal**/
 
-
-/**  Logo Brand Section   **/
-
-.section{
-    margin: 1 rem 0;
-
-}
-
-.logos-section h2{
-    padding: 1rem 0;
-    text-align: center;
-}
-
-.wrap-logos-section{
-    display: flex;
-    /**flex-flow: row wrap;**/
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-brand{
-    width: 200px;
-    padding: 1rem 2rem;
-    filter: grayscale(1);
-}
-
-/**  wrap title **/
-
-.wrap-title-section{
-    display: flex;
-    justify-content: center;
-    margin: 1rem 1rem;
-}
-
-
-/** Servicios Section  **/
-
-.wrap-servicios-section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
-}
-
-.item-servicios-section{
-    padding: 1rem;
-}
-
-.item-servicios-section img{
-    width: 300px;
-    height: 225px;
-}
-
-/** two colums section **/
-
-
-.wrap-img_two-column img{
-    padding: 2rem;
-    display: grid;
-    height: 300px;
-    width: 450px;
-    margin: 10px;
-    
-}
-
-
-.wrap-text-column h3{
-    
-    text-align: center;
-}
-
-.wrap-text-column p{
-    padding-bottom: 1rem;
-    margin: 15px;
-    text-align: justify;
-}
-
-.logosection{
-    width:500px;
-    height: 300px;
-}
-
-
-/** Formulario seccion**/
-
-.wrap-title-section h2{
-    margin: 2px;
-}
-
-
-
-section.two-column-section.form{
-    margin: 15px;
-    background-color: #f5f7f8;
-    padding: 1rem 0;
-}
-
-.form input, .form textarea{
-    display:flex;
-    width: 98%;
-    line-height: 1.75rem;
-    border:1.5px solid #cbcbcb;
-    border-radius:var(--border-r);
-    margin-top:3px;
-}
-
-.form textarea{
-    min-height:200px;
-}
-
-input[type="submit"]{
-    border: 0;
-    display: inline;
-    cursor: pointer;
-    background: darkblue;
-    
-  }
-
-  /** Footer **/
-
-  .footer-section{
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
- 
- .menu-footer-section{
-    padding: 1rem 0;
-  }
-
-  .wrap-social-logos ul, .wrap-menu-footer-section ul{
-    display: flex;
-    justify-content: center;
-    color: black;
-    
-  }
-
-  .social-logo{
-    max-width: 50px;
-    height:50px;
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .wrap-menu-footer-section ul li{
-    font-size: 1.1rem;
-    padding: 1.5rem;
-  }
-
-  .footer-creds{
-    display:flex;
-    justify-content:center;
-  }
-    
-    .wrap-hero-section p {
+     .wrap-hero-section {
+        max-width: 600px;
+        color: #f9f9f9;
+        padding: 15%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
         font-weight: bold;
         text-align: justify;
-        font-size: 15px;
+
     }
-  }
 
-  @media(min-width: 601px){
+    .wrap-hero-section h1{
+        font-size: 35px;
+        text-align: center;
+    }
     
+    /** Seccion hero  **/
+
+    .wrap-cta {
+        padding: 1.5rem 0;
+    }
+
+    .cta-a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: var(--main-c);
+        padding: .5rem 1rem;
+        border-radius: var(--border-r);
+    }
+
+        /**   Hero section **/
+    .hero-section {
+        margin-top: 10px;
+        height: 90vh;
+        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(106, 141, 163, 0.7);
+        background-blend-mode: multiply;
+        display: flex;
+        align-items: center;
+
+    }
 
 
-.contendor-principal{
-    padding:10px;
-}
+    /** Logo principal**/
+    .logo-header {
+        max-width: 35px;
+        height: 100%;
+        width: 100%;
+    }
 
-.hero-section {
-    color: var(--color-p)
-}
+    /**Logos tecnologias**/
+    img {
+        width: 100px;
+        height: 100px;
+    }
 
-.p {
-    font-size:1.1rem;
-}
-
-
-a{
-    text-decoration: none;
-}
-
-ul, li {
-    list-style: none;
-}
-
-.wrap-cta{
-    padding: 1.5rem 0;
-}
-
-.cta-a{
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.2rem;
-    background-color: var(--main-c);
-    padding: .5rem 1rem;
-    border-radius: var(--border-r);
-}
-
-h1{
-    font-size: 2.8rem;
-}
-h2{
-    font-size: 2.5rem;
-}
-h3{
-    font-size: 2.2rem;
-}
-
-
-/** Header **/
-
-.header-landing{
-    display: flex;
-    justify-content: center;
-    background: #f2f2f2;
-    padding: 0.25rem;
-
-}
-
-
-.logo-header{
-    max-width: 35px;
-    height: 100%;
-    width: 100%;
-}
-
-
-img{
-    width: 200px;
-    height:200px
-}
-
-
-/**   Hero section **/
-
-.hero-section{
+    /** two colums section 
     
-    height: 90vh;
-    background:url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738857955/pexels-seven11nash-380769_rbg2pv.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(106,141,163,0.7);
-    background-blend-mode: multiply;
-    display: flex;
-    align-items: center;
-    
-}
-
-.wrap-hero-section{
-    max-width: 600px;
-    color: #f9f9f9 ;
-    padding: 15%;
+.wrap-img_two-column img {
+        padding: 2rem;
+        height: 250px;
+        width: 270px;
+        margin: 10px;
+    }
    
-}
-.wrap-hero-section p {
-    font-weight: bold;
-    text-align: justify;
-    font-size: 18px;
-}
 
-/**  Logo Brand Section   **/
 
-.section{
-    margin: 1 rem 0;
+    **/
 
-}
+    /** Seccion mas caracteristicas**/
+    
+    .wrap-text-column p {
+        padding-bottom: 1rem;
+        margin: 15px;
+        text-align: justify;
+    }
+   
+    /** imagen seccion Caracteristicas de nuestros servicios **/
+    .logosection {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
 
-.section h2{
-    padding: 2rem 0;
-}
+       
+    
+    }
 
-.wrap-logos-section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
+    .logosection img{
+        width: 300px;
+        height: 240px;
+        padding: 0.5px;
+        margin-bottom: 2px;
+        border-radius: 20px;
+    }
 
-.logo-brand{
-    width: 200px;
-    padding: 1rem 2rem;
-    filter: grayscale(1);
-}
 
-/**  wrap title **/
+    /** Formulario seccion
+    **/
 
-.wrap-title-section{
-    display: flex;
-    justify-content: center;
-    margin: 1rem 1rem;
-}
+   
 
-/** Servicios Section  **/
+    .section-two-column-section-form {
+        margin-bottom:90px;
+        background-color: #f3f4f7;
+    }
 
-.wrap-servicios-section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    .wrap-title-section-form{
+        text-align: center;
+        font-size: 20px;
+        padding:1rem;
+    }
 
-}
+    .form input,
+    .form textarea {
+        display: flex;
+        width: 98%;
+        line-height: 1.75rem;
+        border: 1.5px solid #cbcbcb;
+        border-radius: var(--border-r);
+        margin-top: 3px;
+        border-radius:15px
+    
+    }
 
-.item-servicios-section{
-    padding: 1rem;
-}
+    .form textarea {
+        min-height: 200px;
+    }
 
-.item-servicios-section img{
-    width: 300px;
-    height: 225px;
-}
+    input[type="submit"] {
+        border: 0;
+        display: inline;
+        cursor: pointer;
+        background: #20438d;
+        height: 50px;
+        width: 100px;
+    }
 
-/** two colums section **/
+    /** Footer **/
 
-.wrap-two-column{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+    .footer-section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
-.wrap-img_two-column{
-    width: 600px;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:black;
+    }
+  
+/** footer**/
+    .wrap-social-logos ul,
+    .wrap-menu-footer-section ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+    }
+
+    .social-logo {
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .wrap-menu-footer-section ul li {
+        font-size: 1.1rem;
+        padding: 1rem;
+        
+    }
+
+    .footer-creds p{
+      text-align: center;
+      font-size: 13px;
+    }
+
+    /** Header **/
+
+    .header-landing {
+        display: flex;
+        justify-content: center;
+        background: #f2f2f2;
+        padding: 0.25rem;
+
+    }
+
+   
+
+    /**  Logo Brand Section   **/
+
+    .section {
+        margin: 1 rem 0;
+
+    }
+
+    .wrap-logos-section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos-section{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:150px
+    }
+
+    .logos-section h2{
+        margin-bottom: 60px;
+    }
+
+    .logo-brand {
+        width: 200px;
+        padding: 1rem 2rem;
+        filter: grayscale(1);
+    }
+
+    /**  Caracteristicas nuestros servicios **/
+
+    .wrap-title-section {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+      
+    }
+
+    .wrap-title-section p{
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    /** Servicios Section  **/
+
+    .wrap-servicios-section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-bottom:30px;
+
+    }
+    .wrap-servicios-section img{
+        border-radius:40px; 
+    }
+
+  /** Secccion imagenes categorias serviciso**/
+    .item-servicios-section {
+        padding: 1rem;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+        font-weight: bold;
+        font-size:18px;
+    }
+
+    .item-servicios-section img {
+        width: 300px;
+        height: 225px;
+    }
+
+    /** two colums section **/
+
+    .wrap-two-column {
+        display: flex;
+    }
+
+    .wrap-text-column {
+        
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+
+    .wrap-text-column h3{
+        
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+    .wrap-text-column h2 {
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .menu-footer-section {
+        padding: 1rem;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+
+    .menu-footer-section-copy{
+        text-align: center;
+        padding: 2rem;
+        font-size: 13px;
+    
+    }
     
 }
 
-.wrap-text-column h3{
-    padding: 1rem 0;
-}
-
-.wrap-text-column p{
-    padding-bottom: 1rem;
-}
-
-.logosection{
-    width:500px;
-    height: 300px;
-}
 
 
-/** Formulario seccion**/
+/** estilos para resolucion superior a 600 px **/
+@media(min-width: 601px) {
+    
 
-section.two-column-section.form{
-    background-color: #f2f2f2;
-    padding: 3rem 0;
-}
+    /** Padding contenedor principal**/
+    .contendor-principal {
+        padding: 10px;
+    }
 
-.form input, .form textarea{
-    display:flex;
-    width: 100%;
-    line-height: 1.75rem;
-    border:1.5px solid #fff;
-    border-radius:var(--border-r)
-}
+   
+     /** Secion principal**/
 
-.form textarea{
-    min-height:200px;
-}
+     .wrap-hero-section {
+        max-width: 600px;
+        color: #f9f9f9;
+        padding: 15%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: justify;
 
-input[type="submit"]{
-    border: 0;
-    display: inline;
-    cursor: pointer;
-    background: darkblue;
-  }
+    }
 
-  /** Footer **/
+    .wrap-hero-section h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    /** Seccion hero  **/
 
-  .footer-section{
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+    .wrap-cta {
+        padding: 1.5rem 0;
+    }
 
- 
- .menu-footer-section{
-    padding: 1rem 0;
-  }
+    .cta-a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: var(--main-c);
+        padding: .5rem 1rem;
+        border-radius: var(--border-r);
+    }
 
-  .wrap-social-logos ul, .wrap-menu-footer-section ul{
-    display: flex;
-    justify-content: center;
-  }
+        /**   Hero section **/
+    .hero-section {
+        margin-top: 10px;
+        height: 90vh;
+        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(106, 141, 163, 0.7);
+        background-blend-mode: multiply;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
 
-  .social-logo{
-    max-width: 50px;
-    height:50px;
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .wrap-menu-footer-section ul li{
-    font-size: 1.1rem;
-    padding: 1.5rem;
-  }
-
-  .footer-creds{
-    display:flex;
-    justify-content:center;
-  }
-  }
+    }
 
 
-  /* formulario   de prueba no funciona aun*/
-  .section.two-column-section.form {
-    display: flex;
-    flex-direction: column; /* Asegura que los elementos estén en columna */
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 1200px; /* Evita que sea demasiado grande */
-    margin: 0 auto;
+    /** Logo principal**/
+    .logo-header {
+        max-width: 35px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /**Logos tecnologias**/
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /** two colums section 
+    
+.wrap-img_two-column img {
+        padding: 2rem;
+        height: 250px;
+        width: 270px;
+        margin: 10px;
+    }
+   
+
+
+    **/
+
+    /** Seccion mas caracteristicas**/
+    
+    .wrap-text-column p {
+        padding-bottom: 1rem;
+        margin: 15px;
+        text-align: justify;
+    }
+   
+    /** imagen seccion Caracteristicas de nuestros servicios **/
+    .logosection {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+       
+    
+    }
+
+    .logosection img{
+        width: 300px;
+        height: 240px;
+        padding: 0.5px;
+        margin-bottom: 2px;
+        border-radius: 20px;
+    }
+
+
+    /** Formulario seccion
+    **/
+
+   
+
+    .section-two-column-section-form {
+        margin-bottom:90px;
+        background-color: #f3f4f7;
+        width: 600px;
+    }
+
+    .wrap-title-section-form{
+        text-align: center;
+        font-size: 20px;
+        padding:1rem;
+    }
+
+    .form input,
+    .form textarea {
+        display: flex;
+        width: 98%;
+        line-height: 1.75rem;
+        border: 1.5px solid #cbcbcb;
+        border-radius: var(--border-r);
+        margin-top: 3px;
+        border-radius:15px
+    
+    }
+
+    .form textarea {
+        min-height: 200px;
+    }
+
+    input[type="submit"] {
+        border: 0;
+        display: inline;
+        cursor: pointer;
+        background: #20438d;
+        height: 50px;
+        width: 100px;
+    }
+
+    /** Footer **/
+
+    .footer-section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:black;
+    }
+  
+/** footer**/
+    .wrap-social-logos ul,
+    .wrap-menu-footer-section ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+    }
+
+    .social-logo {
+        max-width: 50px;
+        height: 50px;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .wrap-menu-footer-section ul li {
+        font-size: 1.1rem;
+        padding: 1rem;
+        
+    }
+
+    .footer-creds p{
+      text-align: center;
+      font-size: 13px;
+    }
+
+    /** Header **/
+
+    .header-landing {
+        display: flex;
+        justify-content: center;
+        background: #f2f2f2;
+        padding: 0.25rem;
+
+    }
+
+   
+
+    /**  Logo Brand Section   **/
+
+    .section {
+        margin: 1 rem 0;
+
+    }
+
+    .wrap-logos-section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos-section{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:150px
+    }
+
+    .logos-section h2{
+        margin-bottom: 60px;
+    }
+
+    .logo-brand {
+        width: 200px;
+        padding: 1rem 2rem;
+        filter: grayscale(1);
+    }
+
+    /**  Caracteristicas nuestros servicios **/
+
+    .wrap-title-section {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+      
+    }
+
+    .wrap-title-section p{
+        font-size: 18px;
+    text-align: justify;
     padding: 20px;
-    box-sizing: border-box; /* Para que el padding no aumente el tamaño */
-  }
+   
+    margin-left: 40px;
+    }
 
-  
-  .wrap-title-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
+    /** Servicios Section  **/
 
-  .wrap-two-column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
+    .wrap-servicios-section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-bottom:30px;
 
-  
+    }
+    .wrap-servicios-section img{
+        border-radius:40px; 
+    }
+
+  /** Secccion imagenes categorias serviciso**/
+    .item-servicios-section {
+        padding: 1rem;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+        font-weight: bold;
+        font-size:18px;
+    }
+
+    .item-servicios-section img {
+        width: 300px;
+        height: 225px;
+    }
+
+    /** two colums section **/
+
+    .wrap-two-column {
+        display: flex;
+    }
+
+    .wrap-text-column {
+        
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+
+    .wrap-text-column h3{
+        
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 30px;
+    }
+
+    .wrap-text-column h2 {
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .menu-footer-section {
+        padding: 1rem;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+
+    .menu-footer-section-copy{
+        text-align: center;
+        padding: 2rem;
+        font-size: 13px;
+    
+    }
+}
+
+
+
