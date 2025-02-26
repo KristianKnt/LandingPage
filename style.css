@@ -683,4 +683,41 @@
         font-size: 13px;
 
     }
+
 }
+
+
+
+.wrap-logo img {
+    max-width: 35px; /* Tamaño máximo */
+    height: auto;
+  }
+
+  /* seccion de quienes somos  */
+
+  .quienes-somos {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+.quienes-somos-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
