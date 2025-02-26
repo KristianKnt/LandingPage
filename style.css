@@ -696,7 +696,7 @@
   /* seccion de quienes somos  */
 
   .quienes-somos {
-    background-color: #f8f9fa;
+    
     text-align: center;
     padding: 50px 20px;
 }
@@ -704,6 +704,16 @@
 .container {
     max-width: 800px;
     margin: auto;
+}
+
+.container p {
+    text-align:justify;
+    font-size:18px;
+}
+
+.wrap-title-section ul {
+    text-align:justify;
+    font-size:18px
 }
 
 h2 {
