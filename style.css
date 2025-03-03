@@ -17,6 +17,51 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.wrap-logo img {
+    max-width: 35px; /* Tamaño máximo */
+    height: auto;
+  }
+
+  /* seccion de quienes somos  */
+
+  .quienes-somos {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container p {
+    text-align:justify;
+    font-size:18px;
+}
+
+.wrap-title-section ul {
+    text-align:justify;
+    font-size:18px
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+.quienes-somos-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 /** Estilos para resolucion de inferior a 600 px**/
 
 @media (max-width:600px) {
@@ -465,14 +510,34 @@
     }
 
 
-    /** Formulario seccion
-    **/
+    /** Formulario seccion**/
+
+    .prue{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        width: 100%;
+        height:40rem;
+    }
+    
+    .prue img{
+        width: 60rem;
+        height: 40rem;
+        opacity: 0.5;
+    }
 
 
+
+    .wrap-text-column input {
+        margin-bottom: 2.5rem;
+    }
 
     .section-two-column-section-form {
-        background-color: #f3f4f7;
-        width: 600px;
+
+        grid-column: 2/2;
+        grid-row: 1;
+        background-color: #f3f9fc;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
     }
 
@@ -481,6 +546,9 @@
         font-size: 20px;
         padding: 1rem;
     }
+
+
+    /** Estilos para el boton enviar en el formulario */
 
    button{
     border:0;
@@ -497,6 +565,8 @@
     padding:4px;
     cursor:pointer;
     transition: 3s;
+    margin: auto;
+    margin-top:2rem
     
    }
 
@@ -718,47 +788,4 @@
 }
 
 
-
-.wrap-logo img {
-    max-width: 35px; /* Tamaño máximo */
-    height: auto;
-  }
-
-  /* seccion de quienes somos  */
-
-  .quienes-somos {
-    background-color: #f8f9fa;
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
-}
-
-.container p {
-    text-align:justify;
-    font-size:18px;
-}
-
-.wrap-title-section ul {
-    text-align:justify;
-    font-size:18px
-}
-
-h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-
-.quienes-somos-content img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
 
