@@ -8,8 +8,7 @@
     --border: .2rem;
 }
 
-/** Estilos generales**/
-
+/** Estilos generales**/ 
 
 .html * {
     margin: 0;
@@ -43,7 +42,16 @@
 
 .wrap-title-section ul {
     text-align:justify;
-    font-size:18px
+    font-size:18px;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.quienes-somos {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 h2 {
@@ -109,7 +117,7 @@ h2 {
     .hero-section {
         margin-top: 10px;
         height: 90vh;
-        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
+        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738857955/pexels-seven11nash-380769_rbg2pv.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -441,9 +449,10 @@ h2 {
 
     /**   Hero section **/
     .hero-section {
-        margin-top: 10px;
+        margin-top: 0px;
         height: 90vh;
-        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738365372/oficina_aiopzn.jpg);
+        /* background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738857955/pexels-seven11nash-380769_rbg2pv.jpg); */
+        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/f_auto,q_auto/v1738857955/pexels-seven11nash-380769_rbg2pv.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -451,8 +460,8 @@ h2 {
         background-blend-mode: multiply;
         display: flex;
         align-items: center;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
 
     }
 
