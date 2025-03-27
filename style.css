@@ -1,4 +1,4 @@
-/** Variables generales**/
+    /** Variables generales**/
 
 :root {
     --main-c: #fd72d;
@@ -8,14 +8,67 @@
     --border: .2rem;
 }
 
-/** Estilos generales**/
-
+/** Estilos generales**/ 
 
 .html * {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.wrap-logo img {
+    max-width: 35px; /* Tamaño máximo */
+    height: auto;
+  }
+
+  /* seccion de quienes somos  */
+
+  .quienes-somos {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container p {
+    text-align:justify;
+    font-size:18px;
+}
+
+.wrap-title-section ul {
+    text-align:justify;
+    font-size:18px;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.quienes-somos {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+.quienes-somos-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 
 /** Estilos para resolucion de inferior a 600 px**/
 
@@ -228,8 +281,6 @@
 
     }
 
-
-
     /**  Logo Brand Section   **/
 
     .section {
@@ -398,9 +449,10 @@
 
     /**   Hero section **/
     .hero-section {
-        margin-top: 10px;
+        margin-top: 0px;
         height: 90vh;
-        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738857955/pexels-seven11nash-380769_rbg2pv.jpg);
+        /* background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/v1738857955/pexels-seven11nash-380769_rbg2pv.jpg); */
+        background: url(https://res.cloudinary.com/dhk4iu5za/image/upload/f_auto,q_auto/v1738857955/pexels-seven11nash-380769_rbg2pv.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -408,8 +460,8 @@
         background-blend-mode: multiply;
         display: flex;
         align-items: center;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
 
     }
 
@@ -467,24 +519,87 @@
     }
 
 
-    /** Formulario seccion
-    **/
+    /** Formulario seccion**/
 
+    .container-form{
+        display: grid;
+        gap:1rem;
 
+    }
+    
+    .container-form img{
+        margin: auto;
+        width: 100%;
+        height: 600px;
+        opacity:0.4;
+        border-radius: 20px;
+
+    }
+
+    .wrap-text-column input {
+        margin-bottom: 2.5rem;
+    }
 
     .section-two-column-section-form {
-        background-color: #f3f4f7;
-        width: 600px;
+        display: grid;
+        grid-column: 2/2;
+        grid-row: 1;
+        background-color:#f0f2f6;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
+        border-radius:20px;
     }
 
     .wrap-title-section-form {
         text-align: center;
         font-size: 20px;
-        padding: 1rem;
+        margin: auto;
+
     }
 
-   
+
+    /** Estilos para el boton enviar en el formulario */
+
+   button{
+    border:0;
+    background-image: linear-gradient(
+        150deg,
+        rgba(2, 245, 160, 0),
+        rgba(255,162,0),
+        rgba(129,129,4)
+    );
+    border-radius: 8px;
+    color: #03faf2;
+    display: flex;
+    font-size: 18px;
+    padding:4px;
+    cursor:pointer;
+    transition: 3s;
+    margin: auto;
+    margin-top:2rem;
+    font-weight:bold
+    
+   }
+
+   button span{
+    background-color:#111;
+    padding: 16px 24px;
+    border-radius:6px;
+    transition:3s;
+   }
+
+   button:hover span{
+    background:none;
+    color: #111 ;
+    font-weight:bold
+
+   }
+   button:active {
+    transform:scale(0,9)
+   }
+
+
 
     .form input,
     .form textarea {
@@ -647,23 +762,6 @@
         display: flex;
     }
 
-    .wrap-text-column {
-
-        text-align: center;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding: 30px;
-    }
-
-
-    .wrap-text-column h3 {
-
-        text-align: center;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding: 30px;
-    }
-
     .wrap-text-column h2 {
         font-weight: bold;
         margin-top: 40px;
@@ -683,9 +781,8 @@
         font-size: 13px;
 
     }
+
 }
 
-.wrap-logo img {
-    max-width: 35px; /* Tamaño máximo */
-    height: auto;
-  }
+
+
