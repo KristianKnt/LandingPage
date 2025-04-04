@@ -134,6 +134,16 @@ h2 {
         height: 100px;
     }
 
+    .container-form-img{
+        margin: auto;
+        width: 100%;
+        height: 600px;
+        opacity:0.4;
+        border-radius: 20px;
+
+
+    }
+
     /** two colums section 
     
 .wrap-img_two-column img {
@@ -470,6 +480,16 @@ h2 {
         height: 100px;
     }
 
+    .container-form-img{
+
+        margin: auto;
+        width: 100%;
+        height: 600px;
+        opacity:0.4;
+        border-radius: 20px;
+
+
+    }
     /** two colums section 
     
 .wrap-img_two-column img {
@@ -513,9 +533,9 @@ h2 {
     /** Formulario seccion**/
 
     .container-form{
-        display: grid;
+    
         gap:1rem;
-        grid-template-columns:minmax(100px,1fr)
+      
     }
     
     .container-form img{
