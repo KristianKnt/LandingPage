@@ -515,7 +515,7 @@ h2 {
     .container-form{
         display: grid;
         gap:1rem;
-
+        grid-template-columns:minmax(100px,1fr)
     }
     
     .container-form img{
